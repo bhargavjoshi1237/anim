@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    @font-face {
+  font-family: 'Open';
+  src: url('os.otf') format('opentype');   
+}
+@font-face {
+  font-family: 'Openr';
+  src: url('osr.otf') format('opentype');   
+}
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+</style>
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="sw.css">
+<link rel="stylesheet" href="search.css">
+<link rel="stylesheet" href="anim.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <title>Random Dog</title>
+  <script src="index.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<script src="grid.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body  style="background-color: #212121" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <br>
+
+  
+
+  <div class="p-2" style="height: 50px; ">
+    <h3 class=" float-start" style="color: white;padding-left: 2.5%;font-family: 'Audiowide', cursive;">Anim Endors</h3>
+    <p class="float-right pop"  style="color: white; padding-right: 2.5%;font-family: 'Rajdhani', sans-serif; "><span class="material-symbols-outlined">
+      ambient_screen
+      </span></p>
+      <p class="float-right pop"  style="color: white; padding-right: 2.5%;font-family: 'Rajdhani', sans-serif; "><span class="material-symbols-outlined">
+        search
+        </span></p>
+        <p class="float-right pop" style="color: white; padding-right: 2.5%;font-family: 'Rajdhani', sans-serif; "><span class="material-symbols-outlined">
+            home
+          </span></p>
+    
+  </div>
+  <center>
+  <div style="padding-top: 10px;"></div>
+  <div class="line"></div>
+  <div><h3 style="font-family: 'Open';color: white;font-size: 25px; padding-top: 15px;padding-bottom: 5px;" class="align-items-center justify-content-center">Get Custom Recomandation</h3></div>
+  <div class="line"></div>
+  <div style="padding-top: 100px;"></div>
+  <!-- <input type="text" name="text" class="input" style="padding-bottom: 5px; width: 68%;" placeholder="  Search Your Imagination.."> -->
+  <div style="padding-top: 40px;"></div>
+ 
+
+
+ 
+ 
+
+
+<div class="align-items-center justify-content-center" style="width: 100%; padding-left: 27%; padding-right: 27%;">
+
+  <div class = "chip chip-checkbox" onclick = "gern1()" tabindex="0" aria-labelledby="addDramaChip">
+    <input type = "checkbox" />
+    <i class = "material-icons chip-add-icon"></i>
+    <span id = "addDramaChip">Action</span>
+ </div>
+ <div class = "chip chip-checkbox" onclick = "gern2()" tabindex="0" aria-labelledby="addComedyChip">
+    <input type = "checkbox" />
+    <i class = "material-icons chip-add-icon"></i>
+    <span id = "addComedyChip">Advanture</span>
+ </div>
+ <div class = "chip chip-checkbox" onclick = "gern3()" tabindex="0" aria-labelledby="addWesternChip">
+    <input type = "checkbox" />
+    <i class = "material-icons chip-add-icon"></i>
+    <span id = "addWesternChip">Drama</span>
+ </div>
+ <div class = "chip chip-checkbox" onclick = "gern4()" tabindex="0" aria-labelledby="addWesternChip">
+  <input type = "checkbox" />
+  <i class = "material-icons chip-add-icon"></i>
+  <span id = "addWesternChip">Comedy</span>
+</div>
+<div class = "chip chip-checkbox" onclick = "gern5()" tabindex="0" aria-labelledby="addWesternChip">
+  <input type = "checkbox" />
+  <i class = "material-icons chip-add-icon"></i>
+  <span id = "addWesternChip">Fantasy</span>
+</div>
+<div class = "chip chip-checkbox" onclick = "gern6()" tabindex="0" aria-labelledby="addWesternChip">
+  <input type = "checkbox" />
+  <i class = "material-icons chip-add-icon"></i>
+  <span id = "addWesternChip">Mystery</span>
+</div>
+
+<div class = "chip chip-checkbox" onclick = "gern7()" tabindex="0" aria-labelledby="addWesternChip">
+  <input type = "checkbox" />
+  <i class = "material-icons chip-add-icon"></i>
+  <span id = "addWesternChip">Super Natural</span>
+</div>
+  
+</div>
+<br>
+
+<div class="align-items-center justify-content-center" style="width: 100%; padding-left: 33%; padding-right: 33%;">
+
+  <div class = "chip chip-checkbox" onclick = "gern8()" tabindex="0" aria-labelledby="addDramaChip">
+    <input type = "checkbox" />
+    <i class = "material-icons chip-add-icon"></i>
+    <span id = "addDramaChip">Romance</span>
+ </div>
+ <div class = "chip chip-checkbox" onclick = "gern9()" tabindex="0" aria-labelledby="addComedyChip">
+    <input type = "checkbox" />
+    <i class = "material-icons chip-add-icon"></i>
+    <span id = "addComedyChip">Seinen</span>
+ </div>
+ <div class = "chip chip-checkbox" onclick = "gern10()" tabindex="0" aria-labelledby="addWesternChip">
+    <input type = "checkbox" />
+    <i class = "material-icons chip-add-icon"></i>
+    <span id = "addWesternChip">Sclice Of Life</span>
+ </div>
+ <div class = "chip chip-checkbox" onclick = "gern11()" tabindex="0" aria-labelledby="addWesternChip">
+  <input type = "checkbox" />
+  <i class = "material-icons chip-add-icon"></i>
+  <span id = "addWesternChip">Sports</span>
+</div>
+<div class = "chip chip-checkbox" onclick = "gern12()" tabindex="0" aria-labelledby="addWesternChip">
+  <input type = "checkbox" />
+  <i class = "material-icons chip-add-icon"></i>
+  <span id = "addWesternChip"> Si-Fi </span>
+</div>
+<div class = "chip chip-checkbox" onclick = "gern13()" tabindex="0" aria-labelledby="addWesternChip">
+  <input type = "checkbox" />
+  <i class = "material-icons chip-add-icon"></i>
+  <span id = "addWesternChip">Horror</span>
+</div>
+</div>
+<div style="height: 95px;"></div>
+<div onclick="search();" class="pop" style="height: 95px; width: 250px; height: 50px; border-radius: 20px; border-color:#BBBBBB;border-style: solid; border-width: thin; background-color: #272727;">
+<p style="color: white; font-family: 'Open';font-size: 23px; padding-top: 5px;">Search</p>
+</div>
+<div style="height: 100px;"></div>
+<div class="row" id="cardrow" style="width: 80%;">
+ 
+</div>
+<button id="log">LOGIn</button>
+
+<!-- solv the bug and add a clear function to search button to cleear privious results -->
+
+
+
+</center>
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyA1XqjiRRaHoE5GEUOGeCDwSNZ4CxogYVY",
+    authDomain: "anime-alley.firebaseapp.com",
+    projectId: "anime-alley",
+    storageBucket: "anime-alley.appspot.com",
+    messagingSenderId: "147759246154",
+    appId: "1:147759246154:web:20600dc4dc845e4a2e2fb3",
+    measurementId: "G-K6MDJG6T8H"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script src="xx.js"></script>
+<script src="g3.js"></script>
+<script src="p.js"></script>
+<script src="pp.js"></script>
+<script>
+
+state1 = 0;state2 = 0;state3 = 0;state4 = 0;state5 = 0;state6 = 0;state7 = 0;state8 = 0;state9 = 0;state10 = 0;state11 = 0;state12 = 0;state13 = 0;
+
+const idrs = [1,2,8,4,10,7,37,22,10,36,30,24,14];
+
+
+function search(){
+$("#cardrow").empty();
+uri = "https://api.jikan.moe/v4/anime?order_by=popularity&genres=";
+for (let i = 1; i < 14; i++) {
+  // console.log(eval('state' + i));
+   if (eval('state' + i)== 1) {
+    uri = uri.concat(idrs[i-1]+',')
+   }
+}
+uri = uri.slice(0, -1); 
+// console.log(uri);
+
+fetch(uri)
+  .then(function(response){
+
+    return response.json();
+    
+  })
+  .then(function(data){
+        
+
+          for (let i = 0; i < data["pagination"]["items"]["count"]; i++) {
+            
+            // console.log(data["data"][i]["title"]);
+            cards(data["data"][i]["title"],data["data"][i]["images"]["jpg"]["image_url"],i,data["data"][i]["mal_id"]);
+            
+          }
+            
+        })
+
+
+}
+
+function cards(title , image, i,ids){
+
+  
+  $('#cardrow').append('<div id="c'+ i +'" class="col-sm pop" onclick="opener('+ids+')" ></div>')
+  $('#c'+i).append('<img id="img'+ i +'" class="crz" onclick=""></img>')
+  $('#c'+i).append('<p id="p'+ i +'" class="pcrz"></p>')
+  $('#img'+i).attr("src",image);
+  $('#p'+i).text(title)
+
+
+}
+
+
+
+function opener(ids){
+
+  window.open("anime.html?id="+ids);
+
+
+}
+
+
+function gern1(){
+  if (state1 == 0) {
+    state1 = 1;
+  } else if(state1 == 1) {
+    state1 = 0;
+  }
+   
+}
+function gern2(){
+  if (state2 == 0) {
+    state2 = 1;
+  } else if(state3 == 1) {
+    state3 = 0;
+  }
+   
+}
+function gern3(){
+  if (state3 == 0) {
+    state3 = 1;
+  } else if(state3 == 1) {
+    state3 = 0;
+  }
+   
+}
+function gern4(){
+  if (state4 == 0) {
+    state4 = 1;
+  } else if(state4 == 1) {
+    state4 = 0;
+  }
+   
+}
+function gern5(){
+  if (state5 == 0) {
+    state5 = 1;
+  } else if(state5 == 1) {
+    state5 = 0;
+  }
+   
+}
+function gern6(){
+  if (state6 == 0) {
+    state6 = 1;
+  } else if(state6 == 1) {
+    state6 = 0;
+  }
+   
+}
+function gern7(){
+  if (state7 == 0) {
+    state7 = 1;
+  } else if(state7 == 1) {
+    state7 = 0;
+  }
+   
+}
+function gern8(){
+  if (state8 == 0) {
+    state8 = 1;
+  } else if(state8 == 1) {
+    state8 = 0;
+  }
+   
+}
+function gern9(){
+  if (state9 == 0) {
+    state9 = 1;
+  } else if(state9 == 1) {
+    state9 = 0;
+  }
+   
+}
+function gern10(){
+  if (state10 == 0) {
+    state10 = 1;
+  } else if(state10 == 1) {
+    state10 = 0;
+  }
+   
+}
+function gern11(){
+  if (state11 == 0) {
+    state11 = 1;
+  } else if(state11 == 1) {
+    state11 = 0;
+  }
+   
+}function gern12(){
+  if (state12 == 0) {
+    state12 = 1;
+  } else if(state12 == 1) {
+    state12 = 0;
+  }
+   
+}
+function gern13(){
+  if (state13 == 0) {
+    state13 = 1;
+  } else if(state13 == 1) {
+    state13 = 0;
+  }
+   
+}
+
+
+</script>
+
+</html>
+
+

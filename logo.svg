@@ -1,0 +1,20 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1134" height="638">
+	<title>New Project</title>
+	<defs>
+		<image  width="1280" height="720" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAALQAQMAAAD1s08VAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAACHSURBVHic7cExAQAAAMKg9U9tCU+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgaxN8AAQfAspoAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 190px;fill: #000000;font-weight: 800;font-family: "ObjectSans-Heavy", "Object Sans" } 
+		.t1 { font-size: 49px;fill: #fd8204;font-weight: 400;font-family: "ObjectSans-Regular", "Object Sans" } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<text id="Anime Alley" style="transform: matrix(1,0,0,1,-1,272)" >
+		<tspan x="0" y="141.7" class="t0">A</tspan><tspan  y="141.7" class="t0">n</tspan><tspan  y="141.7" class="t0">i</tspan><tspan  y="141.7" class="t0">m</tspan><tspan  y="141.7" class="t0">e</tspan><tspan  y="141.7" class="t0"> </tspan><tspan  y="141.7" class="t0">A</tspan><tspan  y="141.7" class="t0">l</tspan><tspan  y="141.7" class="t0">l</tspan><tspan  y="141.7" class="t0">e</tspan><tspan  y="141.7" class="t0">y</tspan><tspan  y="141.7" class="t0">
+</tspan>
+	</text>
+	<text id="Path To Anime Paradise" style="transform: matrix(1,0,0,1,-6,448)" >
+		<tspan x="0" y="36" class="t1">P</tspan><tspan  y="36" class="t1">a</tspan><tspan  y="36" class="t1">t</tspan><tspan  y="36" class="t1">h</tspan><tspan  y="36" class="t1"> </tspan><tspan  y="36" class="t1">T</tspan><tspan  y="36" class="t1">o</tspan><tspan  y="36" class="t1"> </tspan><tspan  y="36" class="t1">A</tspan><tspan  y="36" class="t1">n</tspan><tspan  y="36" class="t1">i</tspan><tspan  y="36" class="t1">m</tspan><tspan  y="36" class="t1">e</tspan><tspan  y="36" class="t1"> </tspan><tspan  y="36" class="t1">P</tspan><tspan  y="36" class="t1">aradise</tspan><tspan  y="36" class="t1">
+</tspan>
+	</text>
+</svg>

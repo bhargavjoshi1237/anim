@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head><style>
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="c.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title>Random Dog</title>
+    <script src="index.js"></script>
+
+  </head>
+  <body style="background-color: #212121" >
+
+<center>
+<br		>
+<img id="image"/>
+<br>
+<br>
+    <div id="container">
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <p >ID</p><p id="id"></p>
+    </div>
+
+    <div class="col-sm">
+      <p >NAME</p>
+<p id="name"></p>
+    </div>
+    
+
+    <div class="col-sm">
+    <p >EPISODES</p>
+<p id="episodes"></p>
+    </div>
+    
+    <div class="col-sm">
+      <p >RANK</p>
+<p id="rank"></p>
+    </div>
+
+    <div class="col-sm">
+     <p >YEAR</p>
+<p id="year"></p>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <p>Low Res Image: </p><input type="checkbox" id="myCheck" class="ui-checkbox" onclick="myFunction()">
+    </div>
+    <div class="col-sm">
+      <div class="form__group field">
+
+
+
+<div class="form__group field">
+    <input  id="malid" type="input" class="form__field" placeholder="Name" required="">
+    <label for="name" class="form__label">Name</label>
+</div>
+    </div>
+    
+  </div>
+</div>
+
+<br>
+
+
+      
+<button id="button" onclick="get_data()">
+    Load
+    <div class="arrow-wrapper">
+        <div class="arrow"></div>
+
+    </div>
+</button>
+
+
+    </div>
+  </body>
+ 
+</html>
+
+
