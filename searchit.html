@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="icon" type="image/x-icon" href="/images/ico.png">
-   <meta name="description" content=" Discover the ultimate anime info hub where you'll find everything you need about your favorite shows. From plot summaries and character profiles to episode guides and reviews, we've got it all covered. Dive into the world of anime with confidence, knowing you can rely on us for all the latest updates and in-depth information. Explore your favorite anime like never before at our one-stop destination!">
+	    <link rel="icon" type="image/x-icon" href="/images/ico.png">
+<meta name="description" content=" Discover the ultimate anime info hub where you'll find everything you need about your favorite shows. From plot summaries and character profiles to episode guides and reviews, we've got it all covered. Dive into the world of anime with confidence, knowing you can rely on us for all the latest updates and in-depth information. Explore your favorite anime like never before at our one-stop destination!">
     <meta name="keywords" content="recommendation, anime recommendation, suggestion, suggest, anim e, one piece, naruto, chainsaw man, jujutsu kaisen, my hero academia,">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
@@ -29,11 +34,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="sw.css">
+
 <link rel="stylesheet" href="search.css">
 <link rel="stylesheet" href="anim.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <meta charset="utf-8">
-  <title>Recomandation - Anime Alley</title>
+  <title>Search | Anime Alley</title>
   <script src="index.js"></script>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 <script src="grid.js"></script>
@@ -54,113 +60,92 @@
     <h3 class=" float-start" style="color: white;padding-left: 2.5%;font-family: 'Audiowide', cursive;">Anim Alley</h3>
     <p class="float-right pop"  style="color: white; padding-right: 2.5%;font-family: 'Rajdhani', sans-serif; "><a href="search.html"><span class="material-symbols-outlined">
       ambient_screen
-      </span></p></a>
-      <p class="float-right pop"  style="color: white; padding-right: 2.5%;font-family: 'Rajdhani', sans-serif; "><a href="searchit.html"><span class="material-symbols-outlined">
+      </span></a></p>
+      <p class="float-right pop"  style="color: white; padding-right: 2.5%;font-family: 'Rajdhani', sans-serif; "><a href="searchit.html"></a><span class="material-symbols-outlined">
         search
-        </span></p></a>
-        <p class="float-right pop" style="color: white; padding-right: 2.5%;font-family: 'Rajdhani', sans-serif; "><a href="index.html"><span class="material-symbols-outlined">
+        </span></a></p>
+        <p class="float-right pop" style="color: white; padding-right: 2.5%;font-family: 'Rajdhani', sans-serif; "><a href="home.html"></a><span class="material-symbols-outlined">
             home
-          </span></p></a>
+          </span></a></p>
     
   </div>
   <center>
   <div style="padding-top: 10px;"></div>
   <div class="line"></div>
-  <div><h1 style="font-family: 'Open';color: white;font-size: 25px; padding-top: 15px;padding-bottom: 5px;" class="align-items-center justify-content-center">Get Custom Recomandation</h1></div>
+  <div><h3 style="font-family: 'Open';color: white;font-size: 25px; padding-top: 15px;padding-bottom: 5px;" class="align-items-center justify-content-center">Search </h3></div>
   <div class="line"></div>
   <div style="padding-top: 100px;"></div>
   <!-- <input type="text" name="text" class="input" style="padding-bottom: 5px; width: 68%;" placeholder="  Search Your Imagination.."> -->
   <div style="padding-top: 40px;"></div>
- <a href="https://animealley.online/51498"><p class="xp pop">Letest: Masamune-kun no Revenge Review</p></a>
-
-
- 
  
 
-
-<div class="align-items-center justify-content-center" style="width: 100%; padding-left: 27%; padding-right: 27%;">
-
-  <div class = "chip chip-checkbox" onclick = "gern1()" tabindex="0" aria-labelledby="addDramaChip">
-    <input type = "checkbox" />
-    <i class = "material-icons chip-add-icon"></i>
-    <span id = "addDramaChip">Action</span>
- </div>
- <div class = "chip chip-checkbox" onclick = "gern2()" tabindex="0" aria-labelledby="addComedyChip">
-    <input type = "checkbox" />
-    <i class = "material-icons chip-add-icon"></i>
-    <span id = "addComedyChip">Advanture</span>
- </div>
- <div class = "chip chip-checkbox" onclick = "gern3()" tabindex="0" aria-labelledby="addWesternChip">
-    <input type = "checkbox" />
-    <i class = "material-icons chip-add-icon"></i>
-    <span id = "addWesternChip">Drama</span>
- </div>
- <div class = "chip chip-checkbox" onclick = "gern4()" tabindex="0" aria-labelledby="addWesternChip">
-  <input type = "checkbox" />
-  <i class = "material-icons chip-add-icon"></i>
-  <span id = "addWesternChip">Comedy</span>
-</div>
-<div class = "chip chip-checkbox" onclick = "gern5()" tabindex="0" aria-labelledby="addWesternChip">
-  <input type = "checkbox" />
-  <i class = "material-icons chip-add-icon"></i>
-  <span id = "addWesternChip">Fantasy</span>
-</div>
-<div class = "chip chip-checkbox" onclick = "gern6()" tabindex="0" aria-labelledby="addWesternChip">
-  <input type = "checkbox" />
-  <i class = "material-icons chip-add-icon"></i>
-  <span id = "addWesternChip">Mystery</span>
-</div>
-
-<div class = "chip chip-checkbox" onclick = "gern7()" tabindex="0" aria-labelledby="addWesternChip">
-  <input type = "checkbox" />
-  <i class = "material-icons chip-add-icon"></i>
-  <span id = "addWesternChip">Super Natural</span>
-</div>
+  <div class="form-control" style="height: fit-content; width: 60%; background-color: #212121;border-color: #212121;">
+    <input id="type" class="op op-alt" placeholder="Type something intelligent" required="" type="text">
+    <span class="op-border op-border-alt"></span>
+  </div>
+  <div style="height: 50px;"></div>  
   
-</div>
-<br>
+<div class="row justify-content-center" style="width: 60%;">
+  <div style="width: 0.5%;"></div>
+  <div  style="width: fit-content; height: 50px;background-color: #212121;">
+    <select class="form-select" id="yy" style="width: 180px;" >
+      <option onclick="or()"  value="">Type</option> <!-- use an option with an empty value as a placeholder -->
+      <option onclick="or()" value="tv">TV</option>
+      <option onclick="or()"  value="movie">Movie</option>
+      <option  onclick="or('chrome')" value="ova">OVA</option>
+      <option onclick="or()"  value="special">Special</option>
 
-<div class="align-items-center justify-content-center" style="width: 100%; padding-left: 33%; padding-right: 33%;">
+    </select>
+  </div>
+  <div style="width: 0.5%;"></div>
+  <div  style="width: fit-content; height: 50px;background-color: #212121;">
+   <select class="form-select" id="order" style="width: 180px;" >
+      <option onclick="or()"  value="">Order By</option> <!-- use an option with an empty value as a placeholder -->
+      <option onclick="or()" value="title">Title</option>
+      <option onclick="or()"  value="start_date">Relese Date</option>
+      <option onclick="or()" value="episodes">Episodes</option>
+      <option onclick="or()"  value="score">Score</option>
+      <option onclick="or()" value="rank">Rank</option>
+      <option onclick="or()"  value="popularity">Popularity</option>
 
-  <div class = "chip chip-checkbox" onclick = "gern8()" tabindex="0" aria-labelledby="addDramaChip">
-    <input type = "checkbox" />
-    <i class = "material-icons chip-add-icon"></i>
-    <span id = "addDramaChip">Romance</span>
- </div>
- <div class = "chip chip-checkbox" onclick = "gern9()" tabindex="0" aria-labelledby="addComedyChip">
-    <input type = "checkbox" />
-    <i class = "material-icons chip-add-icon"></i>
-    <span id = "addComedyChip">Seinen</span>
- </div>
- <div class = "chip chip-checkbox" onclick = "gern10()" tabindex="0" aria-labelledby="addWesternChip">
-    <input type = "checkbox" />
-    <i class = "material-icons chip-add-icon"></i>
-    <span id = "addWesternChip">Sclice Of Life</span>
- </div>
- <div class = "chip chip-checkbox" onclick = "gern11()" tabindex="0" aria-labelledby="addWesternChip">
-  <input type = "checkbox" />
-  <i class = "material-icons chip-add-icon"></i>
-  <span id = "addWesternChip">Sports</span>
+
+    </select>
+  </div>
+  <div style="width: 0.5%;"></div>
+  <div  style="width: fit-content; height: 50px;background-color: #212121;">
+   <select class="form-select" id="air" style="width: 180px;" >
+      <option onclick="or()"  value="">Status</option> <!-- use an option with an empty value as a placeholder -->
+      <option onclick="or()" value="airing">Airing</option>
+      <option onclick="or()"  value="complete">Complete</option>
+      <option  onclick="or('chrome')" value="upcoming">Upcoming</option>
+   
+    </select>
+  </div>
+  <div style="width: 0.5%;"></div>
+  <div  style="width: fit-content; height: 50px;background-color: #212121;">
+   <select class="form-select" id="pg" style="width: 180px;" >
+      <option onclick="or()"  value="">PG Rating</option> <!-- use an option with an empty value as a placeholder -->
+      <option onclick="or()" value="g">All</option>
+      <option onclick="or()"  value="pg">PG - Children</option>
+      <option  onclick="or('chrome')" value="pg13">PG-13 - Teens 13 or older</option>
+      <option onclick="or()"  value="r17">R - 17+ (violence & profanity)</option>
+
+    </select>
+  </div>
+  <div style="width: 0.5%;"></div>
 </div>
-<div class = "chip chip-checkbox" onclick = "gern12()" tabindex="0" aria-labelledby="addWesternChip">
-  <input type = "checkbox" />
-  <i class = "material-icons chip-add-icon"></i>
-  <span id = "addWesternChip"> Si-Fi </span>
-</div>
-<div class = "chip chip-checkbox" onclick = "gern13()" tabindex="0" aria-labelledby="addWesternChip">
-  <input type = "checkbox" />
-  <i class = "material-icons chip-add-icon"></i>
-  <span id = "addWesternChip">Horror</span>
-</div>
-</div>
+ 
+
+
+ 
 <div style="height: 95px;"></div>
-<div onclick="search();" class="pop" style="height: 95px; width: 250px; height: 50px; border-radius: 20px; border-color:#BBBBBB;border-style: solid; border-width: thin; background-color: #272727;">
+<div onclick="createq();" class="pop" style="height: 95px; width: 250px; height: 50px; border-radius: 20px; border-color:#BBBBBB;border-style: solid; border-width: thin; background-color: #272727;">
 <p style="color: white; font-family: 'Open';font-size: 23px; padding-top: 5px;">Search</p>
 </div>
 <div style="height: 100px;"></div>
 <div class="row" id="cardrow" style="width: 80%;">
  
-</div>
+</div> 
 
 
 <!-- solv the bug and add a clear function to search button to cleear privious results -->
@@ -170,6 +155,7 @@
 </center>
 
 <script type="module">
+
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-app.js";
   import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-analytics.js";
@@ -201,24 +187,51 @@
 <script src="pp.js"></script>
 <script>
 
+function createq(){
+$("#cardrow").empty();
+ip = $('#yy').val();
+ip1 = $('#order').val();
+ip2 = $('#air').val();
+ip3 = $('#pg').val();
+urx = "https://api.jikan.moe/v4/anime"
+urx = urx + '?q=' + $('#type').val();
+if (ip2 != "") {
+  urx = urx + '&status=' + ip2
+}
+if (ip != "") {
+  urx = urx + '&type=' + ip
+}
+if (ip1 != "") {
+  urx = urx + '&order_by=' + ip1
+}
+if (ip3 != "") {
+  urx = urx + '&rating=' + ip3
+}
+
+console.log(urx)
+search(urx)
+}
+
+
 state1 = 0;state2 = 0;state3 = 0;state4 = 0;state5 = 0;state6 = 0;state7 = 0;state8 = 0;state9 = 0;state10 = 0;state11 = 0;state12 = 0;state13 = 0;
 
 const idrs = [1,2,8,4,10,7,37,22,10,36,30,24,14];
 
+function search(urx){
 
-function search(){
-$("#cardrow").empty();
-uri = "https://api.jikan.moe/v4/anime?order_by=popularity&genres=";
-for (let i = 1; i < 14; i++) {
-  // console.log(eval('state' + i));
-   if (eval('state' + i)== 1) {
-    uri = uri.concat(idrs[i-1]+',')
-   }
-}
-uri = uri.slice(0, -1); 
-// console.log(uri);
-
-fetch(uri)
+// $("#cardrow").empty();
+// var tip = $('#type').val();
+// urx = "https://api.jikan.moe/v4/anime?order_by=popularity&q=";
+// for (let i = 1; i < 14; i++) {
+//   // console.log(eval('state' + i));
+//    if (eval('state' + i)== 1) {
+//     uri = uri.concat(idrs[i-1]+',')
+//    }
+// }
+// uri = uri.slice(0, -1); 
+// // console.log(uri);
+// console.log(urx);
+fetch(urx)
   .then(function(response){
 
     return response.json();
@@ -230,7 +243,7 @@ fetch(uri)
           for (let i = 0; i < data["pagination"]["items"]["count"]; i++) {
             
             // console.log(data["data"][i]["title"]);
-            cards(data["data"][i]["title"],data["data"][i]["images"]["jpg"]["image_url"],i,data["data"][i]["mal_id"]);
+            cards(data["data"][i]["title"],data["data"][i]["images"]["jpg"]["image_url"],i,data["data"][i]["mal_id"],data["data"][i]["type"]);
             
           }
             
@@ -239,14 +252,17 @@ fetch(uri)
 
 }
 
-function cards(title , image, i,ids){
+function cards(title , image, i,ids,pd){
 
   
-  $('#cardrow').append('<div id="c'+ i +'" class="col-sm pop" onclick="opener('+ids+')" ></div>')
+  $('#cardrow').append('<div id="c'+ i +'" class="col-sm pop" style="padding-bottom:35px" onclick="opener('+ids+')" ></div>')
+  
   $('#c'+i).append('<img id="img'+ i +'" class="crz" onclick=""></img>')
   $('#c'+i).append('<p id="p'+ i +'" class="pcrz"></p>')
+ 
   $('#img'+i).attr("src",image);
-  $('#p'+i).text(title)
+  $('#p'+i).text(title + ' - ' + pd) 
+  $('#pd'+i).text(pd)
 
 
 }
